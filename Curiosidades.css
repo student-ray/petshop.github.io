@@ -1,0 +1,80 @@
+/*ESTILIZAÇÃO DA PÁGINA HTML CURIOSIDADES*/
+
+h2{
+    background-color: #c0262c;
+    color: #fff;
+    font-size: 2.5em;
+    letter-spacing: .1em;
+    width: 470px;
+    padding: 61px 400px 61px 100px;
+    background-image: url(imagens/importante-saber.jpg), url(imagens/back-bolinha.gif);
+    background-repeat: no-repeat, repeat;
+    background-position: center right, center center;
+}
+
+figure{
+    border: #c0262c dashed 2.3px;
+    text-align: center;
+    padding: 20px 0 0;
+    border-radius: 35px 35px 0 0;
+}
+
+figcaption{
+    background-color: #c0262c;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 7px 0;
+}
+
+ul li{
+    list-style-type: none;
+    list-style-image: url(imagens/ossinho.png);
+    margin: 20px 0;
+    list-style-position: inside;
+}
+
+/*ESTILIZAÇÃO DO CONTEÚDO DA LISTA DE DESCRIÇÃO*/
+
+dt{
+    background-color: #c0262c;
+    color: #fff;
+    padding: 6px;
+}
+
+dd{
+    border: #c0262c solid thin;
+    border-radius: 0 0 20px 20px;
+    padding: 15px 15px 0;
+    margin-bottom: 20px;
+    margin-top: -3px;
+}
+
+dd a[target="_blank"]{
+    text-decoration: none;
+    color: #c0262c;
+    font-weight: bold;
+    padding: 7px;
+    display: inline-block;   
+}
+
+/*(:HOVER) USADO PARA ESTILIZAR QUANDO O MOUSE PASSAR EM CIMA DO TEXTO*/
+dd a[target="_blank"]:hover{
+    text-decoration: underline;
+}
+
+dd a[href="#indice"]{
+    text-decoration: none;
+    color: #c0262c;
+    font-weight: bold;
+    padding: 7px 0 7px 30px;
+    background: url(imagens/seta-voltar.png) no-repeat left center;
+}
+
+/*(:HOVER) USADO PARA ESTILIZAR QUANDO O MOUSE PASSAR EM CIMA DO TEXTO*/
+dd a[href="#indice"]:hover{
+    text-decoration: underline;
+    background: url(imagens/seta-voltar-hover.png) no-repeat left center;
+}
+
+
+
